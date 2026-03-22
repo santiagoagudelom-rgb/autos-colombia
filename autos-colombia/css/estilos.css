@@ -1,0 +1,79 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #0d6efd, #0a58ca);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* CONTENIDO */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* TARJETA */
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #0d6efd;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+}
+
+/* BOTÓN */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #0d6efd;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #084298;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: #e7f1ff;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
