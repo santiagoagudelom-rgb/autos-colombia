@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registrar Vehículo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Registrar Vehículo</h2>
+
+    <form action="../vehiculos/crear.php" method="POST">
+        <input type="text" name="placa" placeholder="Placa" required>
+        <input type="text" name="tipo" placeholder="Tipo de vehículo" required>
+        <input type="number" name="usuario_id" placeholder="ID del usuario" required>
+        <button type="submit">Guardar</button>
+    </form>
+</div>
+
+</body>
+</html>
